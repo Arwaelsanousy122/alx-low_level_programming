@@ -13,19 +13,19 @@ int main(void)
 	/* your code goes there */
 	/* check the boolean condition */
 	if
-		(n < 0);
+		(n < 0)
 	{
 	/* if condition is true then print the following */
 		printf("%d is negative\n", n);
 	}
 	if
-		(n > 0);
+		(n > 0)
 	{
 	/* if condition is true then print the following */
 		printf("%d is positive\n", n);
 	}
 	if
-		(n == 0);
+		(n == 0)
 	{
 	/* if the condition is true then print the following */
 		printf("%d is zero\n", n);
