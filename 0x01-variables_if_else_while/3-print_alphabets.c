@@ -26,6 +26,6 @@ int main(void)
 		cha++;
 	}
 	/* print new line */
-	puchar('\n')
+	putchar('\n');
 	return (0);
 }
