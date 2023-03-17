@@ -13,7 +13,7 @@ int main(void)
 	/* while loop print lowecase alphabet */
 	while (ch <= 'z')
 	{
-		printf("%c", ch);
+		putchar(ch);
 		ch++;
 	}
 	return (0);
