@@ -3,7 +3,13 @@
 #include <time.h>
 /* more headers goes there */
 
-/* function that tests if a random number is negative, positive or zeroo */
+/**
+ * main - Entry point
+ * Description: tests if a random number is negative, positive or zero
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	/* Local variable definition */
