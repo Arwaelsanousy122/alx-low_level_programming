@@ -11,12 +11,16 @@ int main(void)
 {
 	/* Local variables definition*/
 	int num = 0;
+	int sep1 = 0;
+	int sep2 = 0;
 	/* while loop prints single_digit numbers */
 	while (num < 10)
 	{
+		putchar(sep1);
+		putchar(sep2);
 		putchar('0' + num);
-		putchar(',');
-		putchar(' ');
+		sep1 = ',';
+		sep2 = ' ';
 		num++;
 	}
 	putchar('\n');
