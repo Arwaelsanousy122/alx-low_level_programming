@@ -12,7 +12,7 @@ int main(void)
 	int num = 0;
 	char ch = 'a';
 	/* while loop print base 10 using putchar */
-	while (num > 10)
+	while (num < 10)
 	{
 		putchar('0' + num);
 		num++;
