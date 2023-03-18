@@ -14,10 +14,11 @@ int main(void)
 	/* while loop print lowecase alphabet except e and q */
 	while (ch <= 'z')
 	{
-		putchar(ch);
-		ch++;
-		ch != 'q';
-		ch != 'e';
+		if (ch != 'q' && ch != 'e')
+		{
+			putchar(ch);
+			ch++;
+		}
 	}
 
 	putchar('\n');
