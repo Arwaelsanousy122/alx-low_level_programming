@@ -12,7 +12,7 @@ int main(void)
 	/* Local variables */
 	char ch = 'a';
 	/* while loop print lowecase alphabet except e and q */
-	while (ch != 'e' && ch != 'q' && ch <= 'z')
+	while(ch <= 'z' && ch != 'q' && ch != 'e')
 	{
 		putchar(ch);
 		ch++;
