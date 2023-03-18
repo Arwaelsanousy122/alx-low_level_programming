@@ -10,7 +10,7 @@
 int main(void)
 {
 	/* Local variables */
-	char ch = 'z'
+	char ch = 'z';
 	/* while loop print lowecase alphabet in reverse */
 	while (ch >= 'a')
 	{
