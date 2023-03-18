@@ -12,7 +12,7 @@ int main(void)
 	/* Local variables */
 	int num = 0;
 	/* while loop print the number */
-	while (num <= 10)
+	while (num < 10)
 	{
 		printf("%d", num);
 		num++;
