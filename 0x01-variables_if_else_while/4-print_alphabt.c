@@ -12,11 +12,14 @@ int main(void)
 	/* Local variables */
 	char ch = 'a';
 	/* while loop print lowecase alphabet except e and q */
-	while(ch <= 'z' && ch != 'q' && ch != 'e')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
+		ch != 'q';
+		ch != 'e';
 	}
+
 	putchar('\n');
 	return (0);
 }
