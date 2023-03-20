@@ -10,7 +10,7 @@
 int main(void)
 {
 	/* Local variables definition */
-	int digit1, digit2, digit3, digit4;
+	int digit1, digit2, digit3, digit4, num1, num2;
 
 	for (digit1 = 0; digit1 <= 9; digit1++)
 	{
