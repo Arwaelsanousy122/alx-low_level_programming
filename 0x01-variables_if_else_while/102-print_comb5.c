@@ -14,7 +14,7 @@ int main(void)
 
 	for (digit1 = 0; digit1 <= 98; digit1++)
 	{
-		for (digit2 = 0; digit2 <= 99; digit2++)
+		for (digit2 = digit2 +1; digit2 <= 99; digit2++)
 		{
 				putchar('0' + (digit1 / 10));
 				putchar('0' + (digit1 % 10));
