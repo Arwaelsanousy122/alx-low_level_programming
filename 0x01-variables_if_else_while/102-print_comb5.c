@@ -12,9 +12,9 @@ int main(void)
 	/* Local variables definition */
 	int digit1, digit2;
 
-	for (digit1 = 0; digit1 <= 98; digit1++)
+	for (digit1 = 0; digit1 <= 99; digit1++)
 	{
-		for (digit2 = digit2 +1; digit2 <= 99; digit2++)
+		for (digit2 != digit1; digit2 <= 99; digit2++)
 		{
 				putchar('0' + (digit1 / 10));
 				putchar('0' + (digit1 % 10));
