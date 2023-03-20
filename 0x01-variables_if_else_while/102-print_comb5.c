@@ -12,11 +12,11 @@ int main(void)
 	/* Local variables definition */
 	int digit1, digit2, digit3, digit4;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (digit1 = 0; digit1 < 10; digit1++)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
+		for (digit2 = 0; digit2 < 9; digit2++)
 		{
-			for (digit3 = 0; digit3 < 9; digit3++)
+			for (digit3 = 0; digit3 < 10; digit3++)
 			{
 				for (digit4 = digit3 + 1; digit4 < 10; digit4++)
 				{
