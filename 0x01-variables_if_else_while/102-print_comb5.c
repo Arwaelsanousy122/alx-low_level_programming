@@ -25,7 +25,7 @@ int main(void)
 					if (num1 < num2)
 					{
 					putchar('0' + digit1);
-					putchar('0' + digit2;
+					putchar('0' + digit2);
 					putchar(' ');
 					putchar('0' + digit3);
 					putchar('0' + digit4);
