@@ -10,11 +10,10 @@
 
 int main (void)
 {
-	char sentence[] = "a-z";
-	int i;
-	for (i = 0; sentence[i] != '\0'; i++)
+	char letter;
+	for (letter = 'a'; letter => 'z'; letter++)
 	{
-	putchar(sentence[i]);
+	putchar(letter);
 	}
 	putchar('\n');
 	return (0);
