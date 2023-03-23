@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - Entery point
- *
- * Description: alphabet in lowercase
+ * print_alphabet - a function return the lowercase
  *
  * Return: Always 0 (Success)
  */
 
-int main (void)
+void print_alphabet(void)
 {
-	char letter;
-	for (letter = 'a'; letter => 'z'; letter++)
+	int letter;
+
+	for (letter = 97; letter >= 122; letter++)
 	{
-	putchar(letter);
+	_putchar(letter);
 	}
-	putchar('\n');
-	return (0);
+	_putchar('\n');
 }
