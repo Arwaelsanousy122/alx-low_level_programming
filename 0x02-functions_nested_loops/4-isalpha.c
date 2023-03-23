@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * _isalpha - fucntion check for alphabet
  *
- * Description: function that prints text
+ * @c : alphabet lower or upper
  *
- * Return: Always 0 (Success)
+ * Return: if alphabet upper or lower 1 if else 0 (Success)
  */
 
 int _isalpha(int c);
