@@ -2,7 +2,7 @@
 /**
  * main - Fizz-Buzz test
  *
- * _putchar - print Fizz, Buzz or both
+ * _putchar : print Fizz, Buzz or both
  *
  * @string : sentence
  *
@@ -12,17 +12,7 @@
  *
  */
 
-void outputString(char *string)
-{
-	int y;
-
-	for (y = 0; string[y] != '\0'; y++)
-	{
-		_putchar(string[y]);
-	}
-
-	_putchar('\n');
-}
+void outputString(char *);
 
 int main(void)
 {
@@ -54,7 +44,11 @@ int main(void)
 	}
 	return (0);
 }
+/**
+ * _putchar
+ * Return :char c
+ */
 int _putchar(char c)
 {
-	return (putchar(c));
+	return (_putchar(c));
 }
