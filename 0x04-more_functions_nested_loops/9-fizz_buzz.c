@@ -45,7 +45,7 @@ int main(void)
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			outputString(sentence2);
+			outputString(sentence3);
 		}
 		else
 		{
