@@ -21,8 +21,20 @@ int main(void)
 		}
 		if else (i % 3 == 0 && i % 5 == 0)
 		{
-                                printf("FizzBuzz");
+			printf("FizzBuzz");
+		}
+		else
+		{
+			printf("%i", i);
+		}
+		if (i < 100)
+		{
+			printf(" ");
+		}
+		else
+		{
+			printf("\n");
 		}
 	}
-	_putchar('\n');
+	return (0);
 }
