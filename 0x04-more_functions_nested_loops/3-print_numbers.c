@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * print_numbers - function that prints the numbers, from 0 to 9, followed by a new line
+ * print_numbers - function prints the numbers, from 0 to 9
  *
  */
 
 void print_numbers(void)
 {
 	int i;
+
 	i = 48;
 
 	for (i >= 48; i <= 57; i++)

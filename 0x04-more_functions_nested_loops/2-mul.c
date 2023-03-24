@@ -6,6 +6,8 @@
  *
  * @b : intiger_2
  *
+ * Return: no return
+ *
  */
 
 int mul(int a, int b)
