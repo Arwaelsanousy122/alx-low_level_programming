@@ -6,11 +6,12 @@
  *
  * @b : intiger_2
  *
- * Return: no return
+ * Return: result
  *
  */
 
 int mul(int a, int b)
 {
 	int result = a * b;
+	return result;
 }
