@@ -8,12 +8,12 @@ void print_numbers(void)
 {
 	int i;
 
-	i = 48;
+	i = 0;
 
-	while (i <= 57)
+	while (i < 10)
 	{
-		i++
-	_putchar(i);
+	i++;
+	_putchar(i + '0');
 	}
 	_putchar('\n');
 }
