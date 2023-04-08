@@ -1,11 +1,19 @@
 #include "main.h"
 /**
- * _puts - function
+ * _puts - function that prints a string
  *
- * @s: parameter
+ * @str: contains the string
  *
- * Return: Always
+ * Return: Always 0
  */
-void _puts(char *s)
+void _puts(char *str)
 {
+	int g = 0;
+
+	while (str[g] != '\0')
+	{
+		_putchar(str[g]);
+		g++;
+	}
+	_putchar('\n');
 }
