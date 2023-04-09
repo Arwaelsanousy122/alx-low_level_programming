@@ -1,9 +1,4 @@
 #include "main.h"
-/**
- * main - function used in testing the cod
- *
- * Return: Always 0
- */
 
 int main(void)
 {
