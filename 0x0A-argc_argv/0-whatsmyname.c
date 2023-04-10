@@ -9,16 +9,20 @@
  * the new name, without having to compile it again
  * You should not remove the path before the name of the program
  *
+ * @argc: the no. of arguments
+ * @argv: the array of string pointers
+ *
  * Return: Always 0
  */
 
 int main(int argc, char *argv[])
 {
 	int count;
+
 	for (count = 0; count < argc; count++)
 	{
-	printf("%s\n", argv[count]);
-	++*argv;
+		printf("%s\n", argv[count]);
+		++*argv;
 	}
 	return (0);
 }
