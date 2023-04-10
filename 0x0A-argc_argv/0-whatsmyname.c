@@ -8,6 +8,8 @@
  * If you rename the program, it will print
  * the new name, without having to compile it again
  * You should not remove the path before the name of the program
+ *
+ * Return: Always 0
  */
 
 int main(int argc, char* argv[])
@@ -16,6 +18,7 @@ int main(int argc, char* argv[])
 	for (count = 0; count < argc; count++)
 	{
 	printf("%s", argv[count]);
+	++*argv;
 	}
 	return (0);
 }
