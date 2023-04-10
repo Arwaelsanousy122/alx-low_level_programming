@@ -13,6 +13,11 @@
 
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	int count;
+
+	for (count = 0; count < argc; count++)
+	{
+		printf("%d\n", argc);
+	}
 	return (0);
 }
