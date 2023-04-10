@@ -12,10 +12,9 @@
 
 int main(int argc, char *argv[])
 {
-	int count = 0;
 	int mult;
 
-	mult = atoi(argv[count + 1]) * atoi(argv[count + 2]);
+	mult = atoi(argv[1]) * atoi(argv[2]);
 
 	if (argc != 3)
 	{
