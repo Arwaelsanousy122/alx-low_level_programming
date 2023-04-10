@@ -15,6 +15,26 @@
 int main(int argc, char *argv[])
 {
 	int count;
+	int sum = 0;
 
-	if (argv[1] !=)
+	for (count = 0; count < argc; count++)
+	{
+
+		if (argc == 1)
+		{
+			printf("0\n");
+		}
+		else if ((atoi(argv[count]) >= 'A' && atoi(argv[count]) <= 'Z') && (atoi(argv[count]) >= 'a' && atoi(argv[count]) <= 'z'))
+		{
+			printf("Error\n");
+			return (1);
+			break;
+		}
+		else
+		{
+			sum += atoi(argv[count]);
+		}
+	}
+	printf("%d\n", sum);
+	return (0);
 }
