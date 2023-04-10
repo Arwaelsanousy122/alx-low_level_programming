@@ -17,14 +17,14 @@ int main(int argc, char *argv[])
 
 	mult = atoi(argv[count + 1]) * atoi(argv[count + 2]);
 
-	if (mult == "%d")
-	{
-		printf("%d\n", mult);
-		return (0);
-	}
-	else
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
+	}
+	else
+	{
+		printf("%d\n", mult);
+		return (0);
 	}
 }
