@@ -24,14 +24,9 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	else
-	{
-		/* Get the elements of the array */
-		for (i = 0; i < size; ++i)
-		{
-			ptr[i] = c;
-		}
-		return (ptr);
-	}
-	return (0);
+
+	/* Get the elements of the array */
+	for (i = 0; i < size; i++)
+	ptr[i] = c;
+	return (ptr);
 }
