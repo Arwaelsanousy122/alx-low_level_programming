@@ -17,12 +17,13 @@ char *create_array(unsigned int size, char c)
 	char *ptr;
 
 	/* Dynamically allocate the memory using malloc */
-	ptr = (char *)malloc(i * sizeof(size));
+	ptr = (char *)malloc(c * sizeof(size));
 
 	/* check if the memory is allocated or not */
 	if (size == 0 || ptr == NULL)
+	{
 		return (NULL);
-
+	}
 	/* Get the elements of the array */
 	for (i = 0; i < size; i++)
 	ptr[i] = c;
