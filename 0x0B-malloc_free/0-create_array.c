@@ -14,10 +14,10 @@ char *create_array(unsigned int size, char c)
 {
 	/* pointer that hold the base address of the block created */
 	unsigned int i;
-	char* ptr;
+	char *ptr;
 
 	/* Dynamically allocate the memory using malloc */
-	ptr = (char*)malloc(c * sizeof(size));
+	ptr = (char *)malloc(c * sizeof(size));
 
 	/* check if the memory is allocated or not */
 	if (size == 0 || ptr == NULL)
